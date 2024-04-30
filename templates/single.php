@@ -54,9 +54,6 @@
                 <br>
                 <a href="../public/index.php">Retour à l'accueil</a>
 
-                 Champ caché pour le token CSRF
-                <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($frontController->getCsrfToken()); ?>">
-
             </form>
         </div>
     </div>
